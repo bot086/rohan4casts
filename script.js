@@ -71,7 +71,7 @@ async function getWeather(city) {
         const weatherData = currentData.current;
 
         cityName.textContent = location.name;
-        temp.textContent = Math.round(weatherData.temp_c);
+        temp.textContent = `${Math.round(weatherData.temp_c)}°C`;
 
         // Update graphs with forecast data
         updateGraphs(forecastData.forecast.forecastday);
