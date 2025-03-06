@@ -1,4 +1,4 @@
-const API_KEY = process.env.WEATHER_API_KEY || '8de8f3cad6c44ab5978101630250503';
+const API_KEY = '8de8f3cad6c44ab5978101630250503';
 const cityInput = document.getElementById('city-input');
 const cityName = document.getElementById('city-name');
 const temp = document.getElementById('temp');
