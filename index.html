@@ -32,23 +32,25 @@
     </div>
     <div class="toast-container" id="toast-container"></div>
     <div class="container">
-        <div class="left-section">
-            <input type="text" id="city-input" placeholder="Enter city">
-            <div class="weather-info">
-                <h1 id="city-name">Weather</h1>
-                <div class="temperature">
-                    <span id="temp">--</span>
+        <div class="weather-section">
+            <div class="left-section">
+                <input type="text" id="city-input" placeholder="Enter city">
+                <div class="weather-info">
+                    <h1 id="city-name">Weather</h1>
+                    <div class="temperature">
+                        <span id="temp">--</span>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="right-section">
+        <div class="stats-section">
             <div class="graphs-container">
                 <div class="graph-section">
-                    <h2>Temperature Trend</h2>
+                    <h2>Temperature Trend <span class="unit">°C</span></h2>
                     <canvas id="tempChart"></canvas>
                 </div>
                 <div class="graph-section">
-                    <h2>Humidity Trend</h2>
+                    <h2>Humidity Trend <span class="unit">%</span></h2>
                     <canvas id="humidityChart"></canvas>
                 </div>
             </div>
