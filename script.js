@@ -183,11 +183,14 @@ function updateGraphs(forecastData) {
     });
 }
 
-cityInput.addEventListener('keypress', (e) => {
+// Add event listener for input field
+cityInput.addEventListener('keypress', function(e) {
     if (e.key === 'Enter') {
+        e.preventDefault();
         const city = cityInput.value.trim();
         if (city) {
             getWeather(city);
+            cityInput.blur(); // This will hide the keyboard
         }
     }
 }); 
