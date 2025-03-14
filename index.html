@@ -2,11 +2,39 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <!-- //google indexing -->
+    <!-- Google Indexing -->
     <meta name="google-site-verification" content="0rWMqpDcaDTnpPDMHENIqIVpEkDuf1JrUPZ7OWDy8gU" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rohan4Casts</title>
+    
+    <!-- SEO Meta Tags -->
+    <title>Rohan4Casts - Accurate Weather Forecasts</title>
+    <meta name="description" content="Get real-time weather updates, temperature trends, and humidity insights with Rohan4Casts. Stay prepared with accurate weather forecasts.">
+    <meta name="keywords" content="weather forecast, temperature trends, humidity, weather updates, Rohan4Casts, real-time weather">
+    <meta name="author" content="Rohan">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph for Social Media -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Rohan4Casts - Accurate Weather Forecasts">
+    <meta property="og:description" content="Get real-time weather updates, temperature trends, and humidity insights with Rohan4Casts. Stay prepared with accurate weather forecasts.">
+    <meta property="og:image" content="https://rohandev.vercel.app/weather-thumbnail.jpg">
+    <meta property="og:url" content="https://rohandev.vercel.app">
+    <meta property="og:site_name" content="Rohan4Casts">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Rohan4Casts - Accurate Weather Forecasts">
+    <meta name="twitter:description" content="Get real-time weather updates, temperature trends, and humidity insights with Rohan4Casts. Stay prepared with accurate weather forecasts.">
+    <meta name="twitter:image" content="https://rohandev.vercel.app/weather-thumbnail.jpg">
+    <meta name="twitter:site" content="@rohxnp">
+    
+    <!-- Mobile Optimization -->
+    <meta name="theme-color" content="#ffffff">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://rohandev.vercel.app/apple-touch-icon.png">
+    
+    <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>☀️</text></svg>">
+    
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -27,12 +55,8 @@
                 <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
                 <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
             </svg>
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="moon-icon">
-                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-            </svg>
         </div>
     </div>
-    <div class="toast-container" id="toast-container"></div>
     <div class="container">
         <div class="weather-section">
             <div class="left-section">
@@ -60,30 +84,15 @@
     </div>
     <footer class="social-footer">
         <a href="https://github.com/rohanongithub" target="_blank" class="social-icon">
-            <div class="icon-container">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
-                </svg>
-            </div>
+            GitHub
         </a>
         <a href="https://www.instagram.com/rohxnp/" target="_blank" class="social-icon">
-            <div class="icon-container">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
-                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
-                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
-                </svg>
-            </div>
+            Instagram
         </a>
         <a href="mailto:rohanunidays@gmail.com" class="social-icon">
-            <div class="icon-container">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
-                    <polyline points="22,6 12,13 2,6"></polyline>
-                </svg>
-            </div>
+            Email
         </a>
     </footer>
     <script src="script.js" defer></script>
 </body>
-</html> 
+</html>
